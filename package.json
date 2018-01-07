@@ -1,28 +1,41 @@
 {
   "name": "react-typescript-storybook-boilerplate",
+  "author": "Munir Ahmed Elsangedy <elsangedy@gmail.com>",
   "version": "1.0.0",
+  "license": "MIT",
   "main": "src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/elsangedy/react-typescript-storybook-boilerplate.git"
-  },
+  "homepage": "https://github.com/elsangedy/react-typescript-storybook-boilerplate#readme",
   "keywords": [
     "react",
     "typescript",
     "storybook",
     "boilerplate"
   ],
-  "author": "Munir Ahmed Elsangedy <elsangedy@gmail.com>",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsangedy/react-typescript-storybook-boilerplate.git"
+  },
   "bugs": {
     "url": "https://github.com/elsangedy/react-typescript-storybook-boilerplate/issues"
   },
-  "homepage": "https://github.com/elsangedy/react-typescript-storybook-boilerplate#readme",
+  "scripts": {
+    "start": "yarn run storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "dependencies": {
-    "react": "^16.2.0",
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.3.4",
+    "@storybook/addon-info": "^3.3.4",
+    "@storybook/addon-knobs": "^3.3.4",
+    "@storybook/addon-links": "^3.3.4",
+    "@storybook/addon-notes": "^3.3.4",
+    "@storybook/addon-options": "^3.3.4",
+    "@storybook/react": "^3.3.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "react-dom": "^16.2.0"
   }
 }
