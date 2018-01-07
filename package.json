@@ -1,0 +1,24 @@
+{
+  "name": "react-typescript-storybook-boilerplate",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsangedy/react-typescript-storybook-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "storybook",
+    "boilerplate"
+  ],
+  "author": "Munir Ahmed Elsangedy <elsangedy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elsangedy/react-typescript-storybook-boilerplate/issues"
+  },
+  "homepage": "https://github.com/elsangedy/react-typescript-storybook-boilerplate#readme"
+}
