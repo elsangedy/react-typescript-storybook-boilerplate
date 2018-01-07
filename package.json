@@ -21,7 +21,12 @@
   "scripts": {
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "clear": "rimraf ./dist",
+    "create": "mkdir dist",
+    "copy": "cp ./package.json ./dist/ && cp -R ./src/* ./dist/",
+    "build": "tsc ./dist/index.ts --jsx react",
+    "dist": "yarn run clear && yarn run create && yarn run copy && yarn run build"
   },
   "dependencies": {
     "react": "^16.2.0"
