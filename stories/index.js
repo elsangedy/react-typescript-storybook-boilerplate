@@ -1,1 +1,1 @@
-import * as test from './test'
+import './my-component'
